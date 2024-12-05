@@ -42,7 +42,7 @@ public class Edge {
    *   The weight of the edge.
    */
   public Edge(int from, int to, Integer weight) {
-    this.source= from;
+    this.source = from;
     this.target = to;
     this.weight = weight;
   } // Edge(int, int, Integer)
@@ -110,7 +110,7 @@ public class Edge {
   } // target()
 
   /**
-   * Get the weight of the edge.  
+   * Get the weight of the edge.
    *
    * @return the weight of the edge. Returns 0 for an unweighted edge.
    *   (Also returns 0 for an edge with weight 0.)

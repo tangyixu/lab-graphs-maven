@@ -48,7 +48,7 @@ public class UndirectedGraph extends Graph {
   public void addEdge(String u, String v, int weight) throws Exception {
     addEdge(this.safeVertexNumber(u), this.safeVertexNumber(v), weight);
   } // addEdge(String, String, int)
-  
+
   /**
    * Add an edge between two vertices.
    * Add an edge between two vertices.
